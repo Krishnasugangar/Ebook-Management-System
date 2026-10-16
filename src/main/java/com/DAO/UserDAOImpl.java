@@ -7,6 +7,7 @@ import java.sql.ResultSet;
 import com.entity.User;
 
 public class UserDAOImpl implements UserDAO{
+	private Connection conn; 
 
 
 	public UserDAOImpl(Connection conn) {
